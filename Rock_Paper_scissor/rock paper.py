@@ -3,7 +3,7 @@ import simplegui
 Computer_score=0
 Human_score=0
 computer_choice=""#
-human_choice=""#ei 2 ta choice die kno function declare kre nai 7-13 no line er code e hcce edr declare kra function
+human_choice=""
 def choice_to_number(choice):
     rps_dict={'rock':0,'paper':1,'scissors':2}
     return rps_dict[choice]
@@ -37,7 +37,7 @@ def test_all():
     test_choice_to_number()
     test_number_to_choice()
 test_all()
-def rock():#1st e 40-57.then 21-27 condition check ,then hcce 7-12 te hcce 21-27 call kra condition gula onusra element supply kra
+def rock():
     global human_choice,computer_choice
     global Human_score,Computer_score
     human_choice='rock'
