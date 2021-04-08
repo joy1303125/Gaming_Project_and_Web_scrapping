@@ -2,7 +2,7 @@ import random
 import simplegui
 Computer_score=0
 Human_score=0
-computer_choice=""#
+computer_choice=""
 human_choice=""
 def choice_to_number(choice):
     rps_dict={'rock':0,'paper':1,'scissors':2}
